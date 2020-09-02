@@ -1,4 +1,3 @@
-import '@stoplight/elements/styles/elements.scss';
 import '../styles/stoplight.scss';
 
 import { API } from '@stoplight/elements';
