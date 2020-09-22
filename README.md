@@ -8,7 +8,7 @@ This example project demonstrates usage with Gatsby.
 * [Try the example locally](#try-the-example)
 * [Set up Elements in your own Gatsby app](#elements-in-your-gatsby-app)
   * [Step 1 - Install Elements](#step-1---install-elements)
-  * [Step 2 - Set up scripts and styles](#step-2---set-up-scripts-and-styles)
+  * [Step 2 - Include the styles](#step-2---include-the-styles)
   * [Ready to go](#ready-to-go)
 
 ## Try the example
@@ -26,7 +26,7 @@ yarn
 Alternatively install it as a Gatsby starter using `gatsby-cli`.
 
 ```bash
-npm install -g gatsby-cli
+yarn global add gatsby-cli
 
 gatsby new elements-starter-gatsby https://github.com/stoplightio/elements-starter-gatsby
 
@@ -34,7 +34,6 @@ cd elements-starter-gatsby
 
 yarn
 ```
-
 
 If the above was successful, you can launch the example project using `yarn start`.
 
@@ -46,30 +45,21 @@ Now if you open your browser and navigate to `http://localhost:8000/` as instruc
 
 ### Step 1 - Install Elements
 
-In order to use Elements in Gatsby install its dependency:
-```bash
-yarn add @stoplight/elements
-```
-
-Elements package contains peer dependencies which should be installed alongside:
-- @stoplight/prism-http
-- mobx
-- vis-network
+Install Elements and it's peer dependencies:
 
 ```bash
-yarn add @stoplight/prism-http
-yarn add mobx
-yarn add vis-network
+yarn add @stoplight/elements @stoplight/prism-http mobx
 ```
 
-### Step 2 - Set up scripts and styles
+### Step 2 - Include the styles
 
-To make *Gatsby* use the Stoplight elements styling, you should import it:
-```scss
-@import '~@stoplight/elements/styles/elements.scss';
+You can import the CSS file directly into your component files
+
+```jsx
+import '@stoplight/elements/styles/elements.min.css';
 ```
 
-or
+or into your CSS
 
 ```css
 @import '~@stoplight/elements/styles/elements.min.css';

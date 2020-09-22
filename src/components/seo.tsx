@@ -5,9 +5,9 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import { graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import { graphql, useStaticQuery } from "gatsby";
+import React from "react";
+import { Helmet } from "react-helmet";
 
 type Meta =
   | {
@@ -20,8 +20,8 @@ type Meta =
     };
 
 function SEO({
-  description = '',
-  lang = 'en',
+  description = "",
+  lang = "en",
   meta = [],
   title,
 }: {
@@ -41,7 +41,7 @@ function SEO({
           }
         }
       }
-    `,
+    `
   );
 
   const metaDescription = description || site.siteMetadata.description;
