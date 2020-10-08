@@ -10,9 +10,8 @@ const StoplightProjectPage = () => {
       <SEO title="Stoplight Elements" />
 
       <StoplightProject
-        workspace="https://elements.stoplight.io"
-        project="elements"
-        branch="beta"
+        workspaceSlug="elements"
+        projectSlug="studio-demo"
         basePath="elements"
       />
     </Layout>

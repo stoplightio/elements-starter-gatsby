@@ -1134,10 +1134,31 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@fortawesome/fontawesome-common-types@^0.2.29":
-  version "0.2.30"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.30.tgz#2f1cc5b46bd76723be41d0013a8450c9ba92b777"
-  integrity sha512-TsRwpTuKwFNiPhk1UfKgw7zNPeV5RhNp2Uw3pws+9gDAkPGKrtjR1y2lI3SYn7+YzyfuNknflpBA1LRKjt7hMg==
+"@fortawesome/fontawesome-common-types@^0.2.31":
+  version "0.2.31"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.31.tgz#f15a39e5ab4e5dfda0717733bcacb9580e666ad9"
+  integrity sha512-xfnPyH6NN5r/h1/qDYoGB0BlHSID902UkQzxR8QsoKDh55KAPr8ruAoie12WQEEQT8lRE2wtV7LoUllJ1HqCag==
+
+"@fortawesome/fontawesome-svg-core@^1.2.31":
+  version "1.2.31"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.31.tgz#23fff9c521f1b57e79e4c2fd6cce8aa794e9d99e"
+  integrity sha512-lqUWRK+ylHQJG5Kiez4XrAZAfc7snxCc+X59quL3xPfMnxzfyf1lt+/hD7X1ZL4KlzAH2KFzMuEVrolo/rAkog==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.31"
+
+"@fortawesome/free-solid-svg-icons@^5.14.0":
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.0.tgz#6f553f25cdebd7d5ae778598c2ddd3321dd63450"
+  integrity sha512-4dGRsOnGBPM7c0fd3LuiU6LgRSLn01rw1LJ370yC2iFMLUcLCLLynZhQbMhsiJmMwQM/YmPQblAdyHKVCgsIAA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.31"
+
+"@fortawesome/react-fontawesome@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.11.tgz#c1a95a2bdb6a18fa97b355a563832e248bf6ef4a"
+  integrity sha512-sClfojasRifQKI0OPqTy8Ln8iIhnxR/Pv/hukBhWnBz9kQRmqi6JSH3nghlhAY7SUeIIM7B5/D2G8WjX0iepVg==
+  dependencies:
+    prop-types "^15.7.2"
 
 "@graphql-tools/schema@^6.0.14":
   version "6.0.18"
@@ -1781,17 +1802,20 @@
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
 "@stoplight/elements-utils@beta":
-  version "6.0.0-beta.139"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-utils/-/elements-utils-6.0.0-beta.139.tgz#68e23ebb4e668a4db120d9fc2a555c61c3d3f515"
-  integrity sha512-jWIkSR2gQ2fsTAodk7CPmimRiTz2aHz31+0Eogt8tjpWA00POeJdDnH5A/0twM2YgqtyTXuprBRO27dJf0khuQ==
+  version "6.0.0-beta.161"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-utils/-/elements-utils-6.0.0-beta.161.tgz#a5bf52f064d8c04a825cd112d10183f01010bcf7"
+  integrity sha512-EE4seWKlKWKgVuL3L6KgaLcidmAiWsJHPeZ5gTqgHfgLQXtG7IQfRlLjZ8YPT9Di2Ic4SXdUFcEFhgcPV9/qnA==
   dependencies:
     lodash "^4.17.19"
 
 "@stoplight/elements@beta":
-  version "6.0.0-beta.146"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.0.0-beta.146.tgz#f1c8133fa6207625c1a32b78bcba56bc8a62103d"
-  integrity sha512-09xX9HV0i46XjOdokZs4YRIaErLebNkHnZqDZIdZNScHL6r5MYUbrjbBmnSl4gK2oxtYfK2qtd4L7CONQMhfOw==
+  version "6.0.0-beta.166"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.0.0-beta.166.tgz#6a9cf9ca918178cfa81a05c8adabf3de86d1eafc"
+  integrity sha512-+Kz/s2ms8p8TUPl+vnQXhFNMlq366B05W0sl6KEBqHBU/OOiP98lTRs8A08cL0QZJ+gtefg10C71JO4mPIkNGg==
   dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.31"
+    "@fortawesome/free-solid-svg-icons" "^5.14.0"
+    "@fortawesome/react-fontawesome" "^0.1.11"
     "@stoplight/elements-utils" beta
     "@stoplight/http-spec" "^3.1.1"
     "@stoplight/httpsnippet" "^1.2.1"
@@ -1804,7 +1828,7 @@
     "@stoplight/react-error-boundary" "^1.1.0"
     "@stoplight/tree-list" "^5.0.3"
     "@stoplight/types" "^11.9.0"
-    "@stoplight/ui-kit" "^3.0.0-beta.33"
+    "@stoplight/ui-kit" "^3.0.0-beta.37"
     "@stoplight/yaml" "^4.2.1"
     axios "^0.19.2"
     classnames "^2.2.6"
@@ -1820,6 +1844,7 @@
     prop-types "^15.7.2"
     react-error-boundary "^1.2.5"
     react-router-dom "^5.2.0"
+    react-router-hash-link "^2.1.0"
     swr "^0.3.0"
     tslib "^1.12.0"
     type-is "^1.6.18"
@@ -2025,15 +2050,15 @@
     "@types/json-schema" "^7.0.4"
     utility-types "^3.10.0"
 
-"@stoplight/ui-kit@^3.0.0-beta.33":
-  version "3.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@stoplight/ui-kit/-/ui-kit-3.0.0-beta.34.tgz#d94ee5ed60caaca4f7172fa3d5192a367de192d7"
-  integrity sha512-xi3UEVh3TbnGdJpoaXswIGgnydW0SxYaecPAWIAAMm08IcCyVLS+n9gQFrbprXPuQkpMVOzFV4/JL0ovIKBC/w==
+"@stoplight/ui-kit@^3.0.0-beta.37":
+  version "3.0.0-beta.37"
+  resolved "https://registry.yarnpkg.com/@stoplight/ui-kit/-/ui-kit-3.0.0-beta.37.tgz#7666f15e7a4b1f719308d3b3878bbb265c748ff2"
+  integrity sha512-xtn7M595JwTCkg/kbUHz2TJqpqFCcLxHfqSC8SM3LS0Jg7S0abWUZbZgNNL5oJQ5cmFg3MGmZ2K29bApSsfuxw==
   dependencies:
     "@blueprintjs/core" "^3.29.0"
     "@blueprintjs/icons" "^3.19.0"
     "@blueprintjs/select" "^3.13.4"
-    "@fortawesome/fontawesome-common-types" "^0.2.29"
+    "@fortawesome/fontawesome-common-types" "^0.2.31"
     classnames "^2.2.6"
     prismjs "^1.20.0"
     react-input-autosize "^2.2.2"
@@ -2045,7 +2070,6 @@
     refractor "^3.0.0"
     tslib "^1.12.0"
     use-debounce "^3.4.3"
-    use-resize-observer "^6.1.0"
     yup "^0.28.3"
 
 "@stoplight/yaml-ast-parser@0.0.48":
@@ -12675,6 +12699,13 @@ react-router-dom@^5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+react-router-hash-link@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-router-hash-link/-/react-router-hash-link-2.1.0.tgz#69cc93df0945480adff14e9e501aea5f356896a8"
+  integrity sha512-U/WizkZwV2IoxLScRJX5CHJWreXjv/kCmjT/LpfYiFdXGnrKgPd0KqcA4KfmQbkwO411OwDmUKKz+bOKoMkzKg==
+  dependencies:
+    prop-types "^15.6.0"
+
 react-router@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
@@ -15451,13 +15482,6 @@ use-debounce@^3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-3.4.3.tgz#5df9322322b3f1b1c263d46413f9facf6d8b56ab"
   integrity sha512-nxy+opOxDccWfhMl36J5BSCTpvcj89iaQk2OZWLAtBJQj7ISCtx1gh+rFbdjGfMl6vtCZf6gke/kYvrkVfHMoA==
-
-use-resize-observer@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/use-resize-observer/-/use-resize-observer-6.1.0.tgz#d4d267a940dbf9c326da6042f8a4bb8c89d29729"
-  integrity sha512-SiPcWHiIQ1CnHmb6PxbYtygqiZXR0U9dNkkbpX9VYnlstUwF8+QqpUTrzh13pjPwcjMVGR+QIC+nvF5ujfFNng==
-  dependencies:
-    resize-observer-polyfill "^1.5.1"
 
 use-sidecar@^1.0.1:
   version "1.0.3"
