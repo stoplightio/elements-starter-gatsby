@@ -65,11 +65,6 @@ or into your CSS
 @import '~@stoplight/elements/styles/elements.min.css';
 ```
 
-
-In addition, **Stoplight Elements needs Font Awesome 5** set up to display its icons.
-
-If you have not already, please either use a *kit* or refer to the [official documentation](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers) on installing the CSS & WebFonts via NPM.
-
 ### Ready to go
 
 Congratulations! At this point, you are ready to use *Stoplight Elements* in your Gatsby application.
