@@ -1,9 +1,10 @@
-import "@stoplight/elements/styles/elements.min.css";
 import "./layout.css";
 
 import React from "react";
 
 import Header from "./header";
+
+require("@stoplight/elements/styles/elements.min.css");
 
 const Layout = ({ children }) => {
   return (
