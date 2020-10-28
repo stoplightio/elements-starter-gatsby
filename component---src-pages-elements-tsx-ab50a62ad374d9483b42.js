@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{"Cc+b":function(e,t,n){"use strict";n.r(t);var o=n("+tu8"),a=n("q1tI"),r=n.n(a),l=n("9Dj+"),u=n("H8eV");t.default=function(){return r.a.createElement(l.a,null,r.a.createElement(u.a,{title:"Stoplight Elements"}),r.a.createElement(o.StoplightProject,{workspaceSlug:"elements",projectSlug:"studio-demo",basePath:"elements",router:"undefined"==typeof window?"memory":"history"}))}}}]);
+//# sourceMappingURL=component---src-pages-elements-tsx-ab50a62ad374d9483b42.js.map
