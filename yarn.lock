@@ -1809,9 +1809,9 @@
     lodash "^4.17.19"
 
 "@stoplight/elements@beta":
-  version "6.0.0-beta.166"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.0.0-beta.166.tgz#6a9cf9ca918178cfa81a05c8adabf3de86d1eafc"
-  integrity sha512-+Kz/s2ms8p8TUPl+vnQXhFNMlq366B05W0sl6KEBqHBU/OOiP98lTRs8A08cL0QZJ+gtefg10C71JO4mPIkNGg==
+  version "6.0.0-beta.179"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.0.0-beta.179.tgz#858e9eeb25ced24b822ee09f648c881f1ab599ee"
+  integrity sha512-/6H4K821WXmocllmlCpydzr5AtnBQysF/7WO99sQ2mKX2dHZpdvUO3EcU1/Tkuo/9mK5t3rqGlOP/XoJSMyGqQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.31"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
@@ -1821,9 +1821,9 @@
     "@stoplight/httpsnippet" "^1.2.1"
     "@stoplight/json" "^3.9.0"
     "@stoplight/json-schema-ref-parser" "^9.0.4"
-    "@stoplight/json-schema-viewer" "^3.0.0-beta.28"
+    "@stoplight/json-schema-viewer" "^3.0.0-beta.33"
     "@stoplight/markdown" "^2.9.0"
-    "@stoplight/markdown-viewer" "^4.2.2"
+    "@stoplight/markdown-viewer" "^4.3.1"
     "@stoplight/path" "^1.3.2"
     "@stoplight/react-error-boundary" "^1.1.0"
     "@stoplight/tree-list" "^5.0.3"
@@ -1850,7 +1850,6 @@
     type-is "^1.6.18"
     unist-util-select "^3.0.1"
     urijs "^1.19.2"
-    urql "^1.9.6"
 
 "@stoplight/eslint-config@^1.1.0":
   version "1.1.0"
@@ -1894,10 +1893,10 @@
     pinkie-promise "^2.0.0"
     stringify-object "^3.3.0"
 
-"@stoplight/json-schema-merge-allof@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-merge-allof/-/json-schema-merge-allof-0.7.1.tgz#7a2c99da9448c5b6b5cbd9afd9f1fb4957d5cbeb"
-  integrity sha512-S+pemVEAhqZPb88WstIbRg8yCMoYr6/+MjPS3/ngXPZ/y+hgG/ax26lTr0E8gmFc9kByIIixjF18ZqmC0DlGHg==
+"@stoplight/json-schema-merge-allof@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-merge-allof/-/json-schema-merge-allof-0.7.2.tgz#a9f4d95b4a95e943afa567c695a1d4a2add9b74a"
+  integrity sha512-fVS5GqYBlxZfX1fA9+ULiny8VaCR3O62p3BHYd7+30rf378pVW6UPPydeB5AXs5U621LJKYdrGyndpOdTJ5dFA==
   dependencies:
     compute-lcm "^1.1.0"
     json-schema-compare "^0.2.2"
@@ -1912,13 +1911,13 @@
     "@stoplight/yaml" "^4.0.2"
     call-me-maybe "^1.0.1"
 
-"@stoplight/json-schema-viewer@^3.0.0-beta.28":
-  version "3.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-viewer/-/json-schema-viewer-3.0.0-beta.28.tgz#0bbb196ee328c0c3cf9db8877f2dcda226231367"
-  integrity sha512-y5/F0wIUB3hk7Am0c+Z85opCp5a9mjIP3Wb9ifG1V8yI+ELn12a5IJOuR4VIl7v5gitn/jIGdLS6AEw5tcB0Sg==
+"@stoplight/json-schema-viewer@^3.0.0-beta.33":
+  version "3.0.0-beta.35"
+  resolved "https://registry.yarnpkg.com/@stoplight/json-schema-viewer/-/json-schema-viewer-3.0.0-beta.35.tgz#c4ef1daf325cb96aaeb6ba4cea1815b99f42ab03"
+  integrity sha512-2d747JABhF/kP85XqEM+PZM3MTCHE0lk+IIv/pMD8AWls2vfTVz2MUN9ORhoIMMwD6lf3XIEh950zE1rl6WZSQ==
   dependencies:
     "@stoplight/json" "^3.5.1"
-    "@stoplight/json-schema-merge-allof" "^0.7.1"
+    "@stoplight/json-schema-merge-allof" "^0.7.2"
     "@stoplight/react-error-boundary" "^1.0.0"
     "@stoplight/tree-list" "^5.0.3"
     classnames "^2.2.6"
@@ -1945,10 +1944,10 @@
     strict-event-emitter-types "^2.0.0"
     wolfy87-eventemitter "~5.2.8"
 
-"@stoplight/markdown-viewer@^4.2.2":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@stoplight/markdown-viewer/-/markdown-viewer-4.2.3.tgz#20a93026a4b26ccef7608733d3a8dfc993cdf80c"
-  integrity sha512-q0j1IT0Am4JgRA+qQGsUpXPFt00ZWTQdjF1yF4pSUWYKmqnWu2jg0DzocXNf3qJNL25TwHkz87i5bW+fGgrmuw==
+"@stoplight/markdown-viewer@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/markdown-viewer/-/markdown-viewer-4.3.1.tgz#61a2d79f6520d0d73654cf9b8f5848d0ea0daae3"
+  integrity sha512-Nj8shF+USr6oznmly7C1c5n+gCdNkMp+bOI84br5eYfEWD6SfK1GjEHR78Cq+pUrlUhGQn68FjJE8/4dXRKD4w==
   dependencies:
     "@stoplight/json" "^3.6"
     "@stoplight/markdown" "^2.9.1"
@@ -6871,12 +6870,7 @@ fp-ts-contrib@^0.1.18:
   resolved "https://registry.yarnpkg.com/fp-ts-contrib/-/fp-ts-contrib-0.1.19.tgz#5154f2f277373d54e5b4da6d7ca6751aaa8cfc74"
   integrity sha512-u0dZbkh0gLrtiIV/spcwU7D8uoVAUCD7+Z5xSmDGHVKrw6G7jOQh6MlC0IrHXqiu1+J51ui/oFrKOEj9jA99LQ==
 
-fp-ts@^2.5.3:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.8.1.tgz#b1812171469a7c0fcbc0b770ac2568f8356d1993"
-  integrity sha512-HuA/6roEliHoBgEOLCKmGRcM90e2trW/ITZZ9d9P/ra7PreqQagC3Jg6OzqWkai13KUbG90b8QO9rHPBGK/ckw==
-
-fp-ts@^2.8.2:
+fp-ts@^2.5.3, fp-ts@^2.8.2:
   version "2.8.2"
   resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.8.2.tgz#7948dea1ceef32e487d7f7f47bd2d3c4fcccfc0d"
   integrity sha512-YKLBW75Rp+L9DuY1jr7QO6mZLTmJjy7tOqSAMcB2q2kBomqLjBMyV7dotpcnZmUYY6khMsfgYWtPbUDOFcNmkA==
@@ -15751,7 +15745,7 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-urql@^1.9.6, urql@^1.9.7:
+urql@^1.9.7:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/urql/-/urql-1.10.0.tgz#609f13891d3c5345635764b71b072edd88a1ae7e"
   integrity sha512-Cxx1INTWNUMg9A2gyltqNqukOLFVtztkHxFGfv01OvsFAtR+wCmLyJqIzGUZRKVbKepTLocGbelS7QDxtjcqtg==
