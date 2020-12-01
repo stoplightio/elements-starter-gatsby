@@ -14,3 +14,8 @@ public
 *.log*
 *-debug.log*
 *-error.log*
+
+# testing
+/coverage
+packages/*/coverage
+cypress/results
