@@ -29,7 +29,7 @@
     "@stoplight/elements": "^6.1.1",
     "@stoplight/prism-http": "^4.0.1",
     "classnames": "^2.2.6",
-    "gatsby": "^2.28.0",
+    "gatsby": "^2.28.1",
     "gatsby-image": "^2.7.0",
     "gatsby-plugin-manifest": "^2.8.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
