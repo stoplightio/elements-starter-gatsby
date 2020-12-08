@@ -1864,22 +1864,22 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@stoplight/elements-utils@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-utils/-/elements-utils-6.1.0.tgz#c18f26230e90970366096c64928c286e69953557"
-  integrity sha512-N4u4VYf0HKthbTQcjKnIeiqy5wir6CCEJGkxzX2BExQYuwvmfRFJ4kAy0yXmnCklcc3m002zP+29tgM7DFDPlg==
+"@stoplight/elements-utils@^6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-utils/-/elements-utils-6.1.1.tgz#158e98658e000d240d2deb4bbb1fa4241760b4b7"
+  integrity sha512-XK02jmezy3GNXonScy0u++My9SPIMqs3nIFOmTV1vmplMlrp3tOE6WOagxnK9+eGA8oCSADbnGK+5jj2jK545g==
   dependencies:
     lodash "^4.17.19"
 
-"@stoplight/elements@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.1.0.tgz#1bcacdca265cecc65c64f20e88e6b419059c303d"
-  integrity sha512-37tLiCeHecaDPDVh0cswRXgve+gh4iwqFUkam+/fxnZZ4bNlmpCWHS9WnbaheS3h1/j+rHA4/L88BZtARnHqmQ==
+"@stoplight/elements@^6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-6.1.1.tgz#636fb22871f8d9c309b9c4c9886460997e5a322b"
+  integrity sha512-pxkTcoky0pf2ECc92EfOPXjMZKbZLIGsQaQ42ovbc8u0ewoDpmVCn8rll6mTrf067BnlBAzNI0ALRenBqohgng==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.31"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@fortawesome/react-fontawesome" "^0.1.11"
-    "@stoplight/elements-utils" "^6.1.0"
+    "@stoplight/elements-utils" "^6.1.1"
     "@stoplight/http-spec" "^3.1.1"
     "@stoplight/json" "^3.9.0"
     "@stoplight/json-schema-ref-parser" "^9.0.5"
