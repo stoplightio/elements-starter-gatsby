@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{PfQ6:function(e,t,o){"use strict";o.r(t);var n=o("+tu8"),a=o("q1tI"),r=o.n(a),i=o("9Dj+"),c=o("H8eV");t.default=function(){return r.a.createElement(i.a,null,r.a.createElement(c.a,{title:"Zoom API"}),r.a.createElement(n.API,{basePath:"zoom-api",apiDescriptionUrl:"https://raw.githubusercontent.com/stoplightio/Public-APIs/master/reference/zoom/zoom.yaml",router:"undefined"==typeof window?"memory":"history"}))}}}]);
+//# sourceMappingURL=component---src-pages-zoom-api-tsx-09daecaf1813a97a77f9.js.map
