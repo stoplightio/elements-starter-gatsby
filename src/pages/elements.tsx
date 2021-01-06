@@ -13,7 +13,7 @@ const StoplightProjectPage = () => {
         workspaceSlug="elements"
         projectSlug="studio-demo"
         basePath="elements"
-        router={typeof window === 'undefined' ? "memory" : "history"}
+        router={typeof window === "undefined" ? "memory" : "history"}
       />
     </Layout>
   );
