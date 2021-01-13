@@ -12,7 +12,7 @@ const ApiPage = () => {
       <API
         basePath="zoom-api"
         apiDescriptionUrl="https://raw.githubusercontent.com/stoplightio/Public-APIs/master/reference/zoom/zoom.yaml"
-        router={typeof window === 'undefined' ? "memory" : "history"}
+        router={typeof window === "undefined" ? "memory" : "history"}
       />
     </Layout>
   );
