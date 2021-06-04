@@ -7324,14 +7324,14 @@ gatsby-plugin-meta-redirect@^1.1.1:
   dependencies:
     fs-extra "^7.0.0"
 
-gatsby-plugin-offline@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.6.0.tgz#781b959178c0721f2a8771f50d557c6003d1aa23"
-  integrity sha512-/hadTgTkhi9V7m4bc1DX43Ny6V3FRKoFZgXSWYlcdELornxJYsAr9DdghRx8Twk10FPfVlLdmIjltQT0iuvQNA==
+gatsby-plugin-offline@^3.10.2:
+  version "3.10.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.10.2.tgz#f17605ba567434908cc5ff33e702e26bf4a610fc"
+  integrity sha512-W67KLTtxDqaVHYmGBLuX6BwRvzIIiNjhoWEBw8VA1cM54QYyDykD+rXrs/mWCcBIiCQEj2xbuJc5jfdJh1Qptw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.6.0"
+    gatsby-core-utils "^1.10.1"
     glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.20"
